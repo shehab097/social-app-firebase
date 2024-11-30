@@ -1,0 +1,150 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  margin: 0;
+  padding: 0
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace
+}
+
+button {
+  cursor: pointer
+}
+
+.Main {
+  display: flex
+}
+
+.Main>.div.div-1 {
+  min-height: 100vh;
+  padding: .5rem;
+  /*! div 1*/
+  width: 25%
+}
+
+.Main>.div.div-2 {
+  height: 100vh;
+  overflow-y: scroll;
+  width: 50%
+}
+
+.Main>.div.div-3 {
+  width: 25%
+}
+
+/* !login logout */
+.div.div-1 h2 {
+  text-align: center
+}
+
+.div.div-1 div {
+  display: grid
+}
+
+.div.div-1 button,
+.div.div-1 input {
+  margin: .5rem 0;
+  outline: 0;
+  padding: .5rem
+}
+
+.div.div-1 .top-div {
+  display: flex;
+  justify-content: space-between
+}
+
+.div.div-1 img {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 2.5rem;
+  outline: 2px solid;
+  width: 2.5rem
+}
+
+
+
+
+/* !post */
+/* ! upload-post */
+.upload-post {
+  background: #fff;
+  margin-bottom: 1rem;
+  position: sticky;
+  top: 0;
+  width: 100%
+}
+
+.upload-post>h2 {
+  padding: .5rem
+}
+
+.upload-post-flex {
+  display: grid
+}
+
+.upload-post-flex button,
+.upload-post-flex textarea {
+  margin: .5rem .4rem;
+  outline: 0;
+  padding: .5rem;
+  resize: vertical
+}
+
+.post-container {
+  display: grid;
+  grid-template-columns: auto;
+  margin: 0 .5rem
+}
+
+
+
+/*! Post */
+.post-container .post {
+  border: 1px solid;
+  margin-bottom: .5rem
+}
+
+.post-container .post .post-top {
+  align-items: center;
+  display: flex;
+  gap: .35rem;
+  padding: .5rem
+}
+
+.post-container .post img {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 2.5rem;
+  object-fit: cover;
+  outline: 2px solid blue;
+  width: 2.5rem
+}
+
+.post-container .post p {
+  padding: .5rem
+}
+
+.post-container .post .post-bottom {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: .25rem
+}
+
+.post-container .post .post-bottom button {
+  background: #d8d8d8;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  padding: .5rem
+}
+
+/*# sourceMappingURL=main.7f236f03.css.map*/
